@@ -10,10 +10,5 @@ class jdkariso001a {
   ensure  => latest,
 
 }
-service { $jdkname:
-    ensure   => 'running',
-    enable  => true,
-    require   => Package[$jdkname],
-}
 
 }
