@@ -1,10 +1,10 @@
 class jdkariso001a {
 
   if $::osfamily == 'RedHat' {
-    $apachename     = 'httpd'
+    $jdkname     = 'java-1.8.0-openjdk'
 	$fw             = 'firewalld'
   } else  {
-    $apachename  = 'apache2'
+    $jdkname  = 'openjdk-8-jdk'
 	$fw             = 'ufw'
   }
 
